@@ -1,3 +1,4 @@
+//Automation assignment of automationpractice
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -37,6 +38,8 @@ public class OpenWebSite
         Thread.sleep(3000);
         driver.findElement(By.xpath("//span[contains(text(),'Proceed to checkout')]")).click(); 
 		driver.close(); //closes the browser
+		//Automation assignment of automationpractice
+
 
 
 
